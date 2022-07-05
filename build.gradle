@@ -14,7 +14,7 @@ buildscript {
     repositories {
         mavenCentral()
         flatDir {
-          dirs 'lib'
+          dirs 'nondex_lib'
         }
     }
     dependencies {
