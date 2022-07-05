@@ -13,9 +13,15 @@
 buildscript {
     repositories {
         mavenCentral()
+        flatDir {
+          dirs 'lib'
+        }
     }
     dependencies {
         classpath 'info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.6.0'
+        classpath ':nondex-gradle-plugin:1.1.3-SNAPSHOT'
+        classpath ':nondex-common:1.1.3-SNAPSHOT'
+        classpath ':nondex-instrumentation:1.1.3-SNAPSHOT'
     }
 }
 
@@ -29,6 +35,7 @@ plugins {
 }
 
 apply plugin: "info.solidsoft.pitest"
+apply plugin: "edu.illinois.nondex"
 
 group = 'org.fitnesse'
 version = new Date().format('yyyyMMdd')
