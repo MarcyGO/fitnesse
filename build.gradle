@@ -14,7 +14,9 @@ buildscript {
     repositories {
         mavenCentral()
         flatDir {
-          dirs 'nondex_lib'
+          dirs '/home/xinyuwu4/NonDex/nondex-common/target'
+          dirs '/home/xinyuwu4/NonDex/nondex-instrumentation/target'
+          dirs '/home/xinyuwu4/NonDex/nondex-gradle-plugin/build/libs'
         }
     }
     dependencies {
