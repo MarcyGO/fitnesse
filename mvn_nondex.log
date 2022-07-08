@@ -1,0 +1,190 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.mary:my-app[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:1.1.3-SNAPSHOT:nondex[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mmy-app[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/xinyuwu4/simple_project/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/xinyuwu4/simple_project/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/xinyuwu4/simple_project/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:1.1.3-SNAPSHOT:nondex[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mmy-app[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:1.1.3-SNAPSHOT:nondex[m [1m(default-cli)[m @ [36mmy-app[0;1m ---[m
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/xinyuwu4/simple_project/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_o9I+svXnl53iJAdmKVxxQajeEai5mum75FJMer6ZHc=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.mary.[1mGradleTutorialTest[m
+***---***
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+
+/home/xinyuwu4/simple_project/target/test-classes:/home/xinyuwu4/simple_project/target/classes:/home/xinyuwu4/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/xinyuwu4/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in com.mary.[1mGradleTutorialTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/xinyuwu4/simple_project/.nondex
+nondexJarDir=/home/xinyuwu4/simple_project/.nondex
+nondexExecid=YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.mary.[1mGradleTutorialTest[m
+***---***
+/home/xinyuwu4/simple_project/.nondex/nondex-instr.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-common/1.1.3-SNAPSHOT/nondex-common-1.1.3-SNAPSHOT.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-annotations/1.1.3-SNAPSHOT/nondex-annotations-1.1.3-SNAPSHOT.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+
+/home/xinyuwu4/simple_project/target/test-classes:/home/xinyuwu4/simple_project/target/classes:/home/xinyuwu4/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/xinyuwu4/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.016 s[1;31m <<< FAILURE![m - in com.mary.[1mGradleTutorialTest[m
+[[1;31mERROR[m] flakyTest1(com.mary.GradleTutorialTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[1, 2]]> but was:<[[2, 1]]>
+	at com.mary.GradleTutorialTest.flakyTest1(GradleTutorialTest.java:40)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GradleTutorialTest.flakyTest1:40 expected:<[[1, 2]]> but was:<[[2, 1]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/xinyuwu4/simple_project/.nondex
+nondexJarDir=/home/xinyuwu4/simple_project/.nondex
+nondexExecid=bdI3naOHCCnw9I6EvUCXL0mPf6thpaxdfZS6xbtT8nE=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.mary.[1mGradleTutorialTest[m
+***---***
+/home/xinyuwu4/simple_project/.nondex/nondex-instr.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-common/1.1.3-SNAPSHOT/nondex-common-1.1.3-SNAPSHOT.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-annotations/1.1.3-SNAPSHOT/nondex-annotations-1.1.3-SNAPSHOT.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+
+/home/xinyuwu4/simple_project/target/test-classes:/home/xinyuwu4/simple_project/target/classes:/home/xinyuwu4/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/xinyuwu4/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.mary.[1mGradleTutorialTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/xinyuwu4/simple_project/.nondex
+nondexJarDir=/home/xinyuwu4/simple_project/.nondex
+nondexExecid=fT7s0OTkz+YKfRXmWyN6WPJ3SInPysh0CEGb0wyploM=
+nondexLogging=CONFIG
+test=
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.mary.[1mGradleTutorialTest[m
+***---***
+/home/xinyuwu4/simple_project/.nondex/nondex-instr.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-common/1.1.3-SNAPSHOT/nondex-common-1.1.3-SNAPSHOT.jar:/home/xinyuwu4/.m2/repository/edu/illinois/nondex-annotations/1.1.3-SNAPSHOT/nondex-annotations-1.1.3-SNAPSHOT.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+
+/home/xinyuwu4/simple_project/target/test-classes:/home/xinyuwu4/simple_project/target/classes:/home/xinyuwu4/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/xinyuwu4/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.011 s[1;31m <<< FAILURE![m - in com.mary.[1mGradleTutorialTest[m
+[[1;31mERROR[m] flakyTest1(com.mary.GradleTutorialTest)  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[1, 2]]> but was:<[[2, 1]]>
+	at com.mary.GradleTutorialTest.flakyTest1(GradleTutorialTest.java:40)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  GradleTutorialTest.flakyTest1:40 expected:<[[1, 2]]> but was:<[[2, 1]]>[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 1, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+INFO: Surefire failed when running tests for fT7s0OTkz+YKfRXmWyN6WPJ3SInPysh0CEGb0wyploM=
+[[1;34mINFO[m] NonDex SUMMARY:
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/xinyuwu4/simple_project/.nondex" -DnondexJarDir="/home/xinyuwu4/simple_project/.nondex" -DnondexExecid=YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.mary.GradleTutorialTest#flakyTest1
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/xinyuwu4/simple_project/.nondex" -DnondexJarDir="/home/xinyuwu4/simple_project/.nondex" -DnondexExecid=bdI3naOHCCnw9I6EvUCXL0mPf6thpaxdfZS6xbtT8nE= -DnondexLogging=CONFIG
+[[1;34mINFO[m] No Test Failed with this configuration.
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/home/xinyuwu4/simple_project/.nondex" -DnondexJarDir="/home/xinyuwu4/simple_project/.nondex" -DnondexExecid=fT7s0OTkz+YKfRXmWyN6WPJ3SInPysh0CEGb0wyploM= -DnondexLogging=CONFIG
+[[1;33mWARNING[m] com.mary.GradleTutorialTest#flakyTest1
+[[1;34mINFO[m] *********
+[[1;34mINFO[m] Across all seeds:
+[[1;34mINFO[m] com.mary.GradleTutorialTest#flakyTest1
+[[1;34mINFO[m] Test results can be found at: 
+[[1;34mINFO[m] file:///home/xinyuwu4/simple_project/.nondex/YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk=/test_results.html
+[[1;34mINFO[m] [NonDex] The id of this run is: YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk=
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.342 s
+[[1;34mINFO[m] Finished at: 2022-07-08T19:57:45Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32medu.illinois:nondex-maven-plugin:1.1.3-SNAPSHOT:nondex[m [1m(default-cli)[m on project [36mmy-app[m: [1;31mUnable to execute mojo[m: There are test failures.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] Please refer to /home/xinyuwu4/simple_project/.nondex/YR4SRfONZBrhWjDIVllnh1mz1wzRJy6yRP52Qisqk= for the individual test results.
+[[1;31mERROR[m] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
